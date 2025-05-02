@@ -1,0 +1,4 @@
+GET     /products/:id           controllers.ProductController.get(id: Long)
+POST    /products               controllers.ProductController.create()
+DELETE  /products/:id           controllers.ProductController.delete(id: Long)
+GET     /                       controllers.ProductController.index()
